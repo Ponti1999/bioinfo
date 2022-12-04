@@ -1,0 +1,162 @@
+﻿
+Kerdesek felepitese:
+
+Osszetett kerdesek (2 db)
+  5 darab alkerdes, melyekre valaszolni kell.
+  A feladat pontszama az alkerdesre adott valaszok szamabol (illetve a valaszok minosegebol) adodik.
+  (Az alkerdesek mutatjak a minimum szintet, amit a temaval kapcsolatban tudni erdemes, de erdemes tobbet irni, mert a minimum szint sosem biztonsagos). Az osszetett kerdes essze jellegu, tehat erdemes okat irni!
+
+
+Egyszeru kerdesek (5 db)
+  A feladat az adott fogalom leirasa roviden, lehetoleg max 2 mondatban.
+
+Kerdesek
+
+
+1. Feherjek - Altalanos
+Mondj el mindent a feherjekrol  amit csak tudsz (minimum szint)
+1. Feherjek szerepe az elolenyekben?
+2. Feherjek felepitoegysegei?
+3. Aminosavak altalanos szerkezeti keplete?
+4. Aminosavak kotodese?
+5. Feherjeterszerkezet szintjei?
+
+2. Feherjek/Nukleinsavak - Vizsgalatok
+Milyen feherje  megismeresi metodikakat ismersz?
+1. Fizikai jellemzok vizsgalata
+2. Kemiai jellemzok vizsgalata
+3. Terszerkezet meghatarozas (pl:NMR, rtg)
+5. Mennyisegi meghatarozas (pl:MALDI)
+
+3. Bioinformatika
+1. Hol vannak, es mit tartalmaznak a nagyobb bioinformatikai adatbazisok a vilagban.
+2. Sorolj fel legalabb harom file formatumot, es mond el a fobb jellemzoiket.
+3. Aminosav es nukleinsav kodolas? (Hogyan, miert es melyik szervezet, mi a jelkeszlet)
+4. Feherjek masodlagos struktura joslas pontossaganak merese. (min 2 meroszam)
+5. Bioinformatika meghatarozas, teruletei.
+
+4. Nukleinsavak - DNS
+Mondj el mindent a DNS -rol amit csak tudsz (minimum szint):
+1. Melyek a DNS alkotoelemei.
+2. Milyen terszerkezeteket vehet fel a DNS.
+3. Milyen tipusu bazisok epitik fel.
+4. Mi a szerepe
+5. Hol talalhato fokent eukariotakban
+
+Egyszeru kerdesek / Szotar
+valaszolj roviden (max. ket mondatban) mit takarnak az alabbi fogalmak:
+
+1.	enzim
+2.	szekvencia
+3.	feherje
+4.	nukleinsav
+5.	aminosav
+6.	nukleotid
+7.	sejtmag
+8.	kodon
+9.	aminosavsorrend
+10.	feherje elsodleges szerkezet
+11.	feherje masodlagos szerkezet
+12.	feherje harmadlagos szerkezet
+13.	feherje negyedleges szerkezet
+14.	nukleoszoma
+15.	bazis
+16.	peptidkotes
+17.	dipeptid
+18.	oligopeptid
+19.	genbank
+20.	genom
+21.	genom projekt
+22.	alfa-helix
+23.	beta-redo
+24.	kanyar-turn
+25.	ligand
+26.	kromatin
+27.	gén
+28.	kromoszóma
+29.	toxin
+30.	enzim
+31.	karboxil csoport
+32.	amino-csoport
+33.	alfa helyzetű szénatom
+34.	esszenciális aminosav
+35.	poláros
+36.	lúgos
+37.	savas
+38.	protein
+39.	proteid
+40.	hidrofil
+41.	globuláris
+42.	fibrilláris
+43.	antiparallel bétalemez
+44.	N-terminális
+45.	C-terminális
+46.	hidrofób
+47.	IUPAC kód
+48.	ASN.1
+49.	Fasta
+50.	PDB
+51.	gélelektroforézis
+52.	centrifugálás
+53.	kromatigráfia
+54.	frakció
+55.	koötődési affinitás
+56.	hidrolízis
+57.	antitest
+58.	Immuno-fluoreszcencia
+59.	izotóp
+60.	szubsztrát
+61.	produktum
+62.	kulcs-zár modell
+63.	aktív hely
+64.	szubsztrát kötőhely
+65.	domén
+66.	aerob
+67.	anaerob
+68.	eukarióta
+69.	prokarióta
+70.	proteomics
+71.	genomics
+72.	metabolomics
+73.	transcriptomics
+74.	SOV mérőszám
+75.	transzmembrán hélix
+76.	mitokondrium
+77.	ER- Endoplazmatikus Retikulum
+78.	diploid
+79.	haploid
+80.	mitózis
+81.	meiózis
+82.	amitózis
+83.	kromoszóma
+84.	profázis
+85.	anafázis
+86.	telofázis
+87.	apoptózis
+88.	nekrózis
+89.	eukromatin
+90.	heterokromatin
+91.	hiszton
+92.	nukleoszóma
+93.	linker régió
+94.	centrális dogma
+95.	replikáció
+96.	transzláció
+97.	transzkripció
+98.	retrovírus
+99.	prion
+100.	RNS vírus
+101.	sense kodon
+102.	nonsense kodon
+103.	stop kodon
+104.	cDNS
+105.	adenin
+106.	timin
+107.	citozin
+108.	uracil
+109.	guanin
+
+
+ZH menetrend:
+2 db osszetett kerdes
+5db egyszeru kerdes

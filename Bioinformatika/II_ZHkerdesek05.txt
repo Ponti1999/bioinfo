@@ -1,0 +1,192 @@
+﻿
+II. ZH menetrend:
+1 db szekvencia illesztes (BLOSUM/PAm matrixxal, teljes számolással)      (beugro jellegu)
+2 db osszetett kerdes
+2x5db egyszeru kerdes (5 db I. resz, 5 db II. resz)
+
+
+1. Feherjek - Altalanos
+Mondj el mindent a feherjekrol  amit csak tudsz (minimum szint)
+1. Feherjek szerepe az elolenyekben?
+2. Feherjek felepitoegysegei?
+3. Aminosavak altalanos szerkezeti keplete?
+4. Aminosavak kotodese?
+5. Feherjeterszerkezet szintjei?
+
+2. Feherjek/Nukleinsavak - Vizsgalatok
+Milyen feherje  megismeresi metodikakat ismersz?
+1. Fizikai jellemzok vizsgalata
+2. Kemiai jellemzok vizsgalata
+3. Terszerkezet meghatarozas (NMR, rtg)
+5. Mennyisegi meghatarozas (MALDI)
+
+3. Bioinformatika
+1. Hol vannak, es mit tartalmaznak a nagyobb bioinformatikai adatbazisok a vilagban.
+2. Sorolj fel legalabb harom file formatumot, es mond el a fobb jellemzoiket.
+3. Aminosav es nukleinsav kodolas? (Hogyan, miert es melyik szervezet, mi a jelkeszlet)
+4. Feherjek masodlagos struktura joslas pontossaganak merese. (min 2 meroszam)
+5. Bioinformatika meghatarozas, teruletei.
+
+4. Nukleinsavak - DNS
+Mondj el mindent a DNS -rol amit csak tudsz (minimum szint):
+1. Melyek a DNS alkotoelemei.
+2. Milyen terszerkezeteket vehet fel a DNS.
+3. Milyen tipusu bazisok epitik fel.
+4. Mi a szerepe
+5. Hol talalhato fokent eukariotakban
+
+5.Feherjek - Hisztonok
+Mondj el mindent a tanult hiszton feherjekrol amit csak tudsz (minimum szint)
+1. Milyen fajtait tanultuk?
+2. Hol talalhatok?
+3. Mi a jelentoseguk/szerepuk?
+4. Mi a nukleoszoma?
+5. Mi a linker?
+
+6. Sejt, Sejtciklus, Sejtosztodas
+1. Eukariota/prokariota sejtek (hasonlosagok, kulonbsegek)
+2. Sejtalkotok
+3. Szomatikus sejtek sejtciklusa
+4. Sejtosztodasi tipusok amitozis, meiozis, mitozis
+5. Mitozis folyamatanak fobb reszei
+
+7. Replikacio
+1. Replikacio szerepe
+2. Replikacio prokariotakban
+3. Replikacio eukariotakban
+4. Mutacios hibak okai, tipusai, hibajavitas,
+5. Mutaciok jelentosege
+
+8. Feherjeszintezis
+1. RNS fobb tipusai, szerepuk
+2. Transzkripcio (atiras) folyamata, jelentosege
+3. Exon/Intron rendszer, Splicing jelentosege, Splicing menete
+4. Pre-mRNS->mRNS
+5. Feherjeszintezis folyamata
+
+9. Szekvencia illesztes
+1. Minimalis torzsfejlodes elve
+2. Szekvencia illesztes (egyszeres) modszerei
+3. Mutaciok sulyozasanak jelentosege, res/resbuntetes (szerepe, jelentosege, hasznalata)
+4. Fontosabb Matrixok (PAM, BLOSUM)
+5. Illesztesi algoritmusok
+
+10. Szekvencia illesztesi algoritmusok
+1. Needleman-Wunsch algoritmus
+2. Needleman-Wunsch algoritmus alkalmazasa, lepesei
+3. Smith Waterman algoritmus
+4. Smith Waterman algoritmus alkalmazasa, lepesei
+
+
+
+Egyszeru kerdesek / Szotar
+valaszolj roviden (max. ket mondatban) mit takarnak az alabbi fogalmak:
+
+I. resz:
+
+  1. enzim
+  2. szekvencia
+  3. feherje
+  4. nukleinsav
+  5. aminosav
+  6. nukleotid
+  7. sejtmag
+  8. kodon
+  9. aminosavsorrend
+  10. feherje elsodleges szerkezet
+  11. feherje masodlagos szerkezet
+  12. feherje harmadlagos szerkezet
+  13. feherje negyedleges szerkezet
+  14. nukleoszoma
+  15. bazis
+  16. peptidkotes
+  17. dipeptid
+  18. oligopeptid
+  19. gelelektroforezis
+  20. domain
+  21. genbank
+  22. genom
+  23. genom projekt
+  24. alfa-helix
+  25. beta-redo
+  26. kanyar-turn
+  27. ligand
+  28. kromatin
+  29. purin
+  30. pirimidin
+  31. hidrofil
+  32. hidrofob
+  33. globularis
+  34  fibrillaris
+  35. hemoglobin
+  36. mioglobin
+  37. szubsztrat
+  38. produktum
+  39. aktiv hely
+  40. transzmembran helix
+  41. N-terminalis
+  42. C-terminalis
+  43. 3`-veg
+  44. 5`-veg
+  45. C-ertek paradoxon
+  46. centralis dogma
+  47. sense kodon
+  48. nonsense kodon
+  49. szekvenalas
+  50. BAC to BAC
+  51.antikodon
+  52.mutagen tenyezok
+  53. Okazaki fragmentum
+  54. replikacios villa
+  55. linker regio
+  56. primer - inditolanc
+  57. szemikonzervativ
+  58. repair
+  59. nick
+
+
+II.resz:
+
+  1.riboszoma
+  2.pre-mRNS
+  3.transzlacio
+  4.cDNS
+  5.poliszoma
+  6.antikodon
+  7.mRNS
+  8.capping- sapkakepzodes
+  9.poli-A farok
+  10.splicing
+  11.hnRNS
+  12.snRNS
+  13.elongacio
+  14.terminacio
+  15.extranuklearis DNS
+  16.mutagen tenyezok
+  17.minimalis torzsfejlodes elve
+  18.szekvencia illesztes
+  19.optimalis illesztes
+  20.dotplot
+  21.gap - res
+  22.gap penalty - resbuntetes
+  23.konstans resbuntetes
+  24.affin resbuntetes
+  25.szekvencia egyezes
+  26.homologia
+  27.PAM250
+  28.BLOSUM62
+  29.BLAST
+  30.rRNS
+  31.tRNS
+  32.Telomér szekvencia
+  33. Needleman & Wunsch algoritmus
+  34. Smith & Waterman algoritmus
+  35. Blast algoritmus
+  36. Okazaki fragmentum
+  37. replikacios villa
+  38. linker regio
+  39. primer - inditolanc
+  40. szemikonzervativ
+  41. repair
+  42. nick
+  43. Ames proba
