@@ -151,35 +151,62 @@ def protein(formatted_mRNA_list):
     except:
         print("Please make sure that your DNA sequence is valid. Re-run this program to re-enter a valid sequence.")
 
-def bio_python():
-    #DNA
-    my_dna = Seq('ATA GCG GCA ATT')
-    my_dna = my_dna.replace(" ", "")
-    my_dna = my_dna.complement()
+# Source: https://github.com/technocapeman/DNA_to_mRNA_to_Protein/blob/main/DNA_mRNA_Protein.py
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
 
-    #mRNA
-    my_mrna = my_dna.transcribe()
-    print('my_mrna: ' + str(my_mrna))
+def bio_python(args, table_choice, stop_bool:bool=False):
+    try:
+        #DNA
+        my_dna = Seq(args)
+        my_dna = my_dna.complement()
 
-    #Protein
-    my_protein = my_mrna.translate(table=1, to_stop=True)
+        #mRNA
+        my_mrna = my_dna.transcribe()
+        print('my_mrna: ' + str(my_mrna))
 
-    print(str(my_protein))
+        #Protein
+        my_protein = my_mrna.translate(table=table_choice, to_stop=stop_bool)
+
+        print(str(my_protein))
+    except Exception as exception:
+        print('Error: ' + str(exception))
 
 
 def menu():
-    parser = argparse.ArgumentParser(description='Thesis data process helper.')
-    parser.add_argument('--translator', nargs="+", help='Translate from DNS to Proteins.')
+    parser = argparse.ArgumentParser(description='Data process helper.')
+    subparser = parser.add_subparsers(dest='command')
+    python = subparser.add_parser('py')
+    biopython = subparser.add_parser('biopy')
+
+    python.add_argument('--translator', nargs="+", help='Translate from DNS to Proteins.')
+
+    biopython.add_argument('--translator', nargs="+", help='Translate from DNS to Proteins.')
+    biopython.add_argument('--table', default='1', nargs="+", help='You can chose what table you want to work with, default table=1.')
+    biopython.add_argument('--stop', default=False, action='store_true', help='Give this command if you want the program to stop when there is a stop in the given table.')
 
     args = parser.parse_args()
-    if args.translator:
-        converted_input = convert_input(args.translator)
-        if converted_input:
-            mRNA = mRNA_sequence(converted_input)
-            if mRNA:
-                list_mRNA = list_mRNA_sequence(mRNA)
-                formatted_mRNA = formatted_mRNA_list(list_mRNA)
-                protein(formatted_mRNA)
+    if args.command == 'py':
+        if args.translator:
+            converted_input = convert_input(args.translator)
+            if converted_input:
+                mRNA = mRNA_sequence(converted_input)
+                if mRNA:
+                    list_mRNA = list_mRNA_sequence(mRNA)
+                    formatted_mRNA = formatted_mRNA_list(list_mRNA)
+                    protein(formatted_mRNA)
+
+    elif args.command == 'biopy':
+        if args.translator:
+            table = args.table
+            if len(table) > 1:
+                table = " ".join(table)
+            gen_seq = args.translator
+            if len(gen_seq) > 1:
+                gen_seq = " ".join(gen_seq)
+            bio_python(gen_seq, table, args.stop)
+
 
 if __name__ == "__main__":
     menu()
